@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/recyclerRow"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    android:padding="5dp"
+    >
+
+    <ImageButton
+        android:id="@+id/recyclerRowDoneButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#00FFFFFF"
+        android:elevation="2dp"
+        android:src="@drawable/ic_done"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:tint="?attr/colorOnSecondary" />
+
+    <TextView
+        android:id="@+id/recyclerRowPlanTextView"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:clickable="true"
+        android:focusable="true"
+        android:singleLine="true"
+        android:text="deneme"
+        app:layout_constraintBottom_toBottomOf="@+id/recyclerRowDoneButton"
+        app:layout_constraintStart_toEndOf="@id/recyclerRowDoneButton"
+        app:layout_constraintTop_toTopOf="@+id/recyclerRowDoneButton" />
+
+    <TextView
+        android:id="@+id/recyclerRowDateTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="24/08"
+        app:layout_constraintBottom_toBottomOf="@+id/recyclerRowPlanTextView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/recyclerRowPlanTextView" />
+
+    <View
+        android:id="@+id/recyclerRowOverLine"
+        android:layout_width="330dp"
+        android:layout_height="2dp"
+        android:background="#9E000000"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/recyclerRowDateTextView"
+        app:layout_constraintStart_toStartOf="@+id/recyclerRowPlanTextView"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

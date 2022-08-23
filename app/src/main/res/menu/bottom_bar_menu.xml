@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/notesScreenFragment"
+        android:enabled="true"
+        android:icon="@drawable/ic_notes"
+        android:title="Notes"/>
+    <item
+        android:id="@+id/profilePageFragment"
+        android:enabled="true"
+        android:icon="@drawable/ic_person"
+        android:title="Profile"/>
+</menu>

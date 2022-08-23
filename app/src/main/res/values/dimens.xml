@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="newNoteDialogHorizontalMargin">30dp</dimen>
+    <dimen name="newNoteDialogVerticalMargin">40dp</dimen>
+    <dimen name="newNoteDialogInputWidth">296dp</dimen>
+    <dimen name="authScreenMarginTop">16dp</dimen>
+</resources>
