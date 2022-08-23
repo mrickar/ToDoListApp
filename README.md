@@ -1,7 +1,7 @@
 # ToDoListApp
 
 This is one of Kotlin projects that I have developped in my internship.
-I used .xml for UI and Firebase RealTime Database for the data storage and authentication. 
+I used .xml for UI and Firebase Realtime Database for the data storage and Firebase auth for the authentication. 
 
 In app, you can save new notes to your list, mark them as done, delete and edit them.
 
